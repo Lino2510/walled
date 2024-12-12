@@ -2,14 +2,14 @@ import { useState } from "react";
 
 import avatarImg from "../assets/avatar.png";
 
-function Avatar() {
+function Avatar({ name, avatar }) {
   const [isAvatarActive, setIsAvatarActive] = useState(false);
 
   return (
     <div className="flex items-center gap-x-4 ml-auto">
       <span className="text-right">
-        <p className="text-black font-bold">Chelsea Immanuela</p>
-        <p className="text-black">Personal Account</p>
+        <p className="text-black font-bold">{name}</p>
+        <p className="text-black">mawarnafis@gmail.com</p>
       </span>
       <div
         className={`rounded-full border-[6px] hover:border-[6px] hover:border-[#178F8D] cursor-pointer transition-all ${
@@ -17,7 +17,7 @@ function Avatar() {
         }`}
         onClick={() => setIsAvatarActive((prev) => !prev)}
       >
-        <img src={avatarImg} alt="avatar" className="rounded-full" />
+        <img width={150} src={avatar} alt="avatar" className="rounded-full" />
       </div>
     </div>
   );

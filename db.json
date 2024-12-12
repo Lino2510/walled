@@ -1,0 +1,116 @@
+{
+  "posts": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+  "transactions": [
+    {
+      "id": "1",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "DEBIT",
+      "fromTo": "310001001",
+      "description": "Fore Coffee",
+      "amount": -75000
+    },
+    {
+      "id": "2",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "CREDIT",
+      "fromTo": "1001",
+      "description": "Topup from Bank Transfer",
+      "amount": 1000000
+    },
+    {
+      "id": "3",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "DEBIT",
+      "fromTo": "310001001",
+      "description": "Fore Coffee",
+      "amount": -75000
+    },
+    {
+      "id": "4",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "CREDIT",
+      "fromTo": "1001",
+      "description": "Topup from Bank Transfer",
+      "amount": 1000000
+    },
+    {
+      "id": "5",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "DEBIT",
+      "fromTo": "310001001",
+      "description": "Fore Coffee",
+      "amount": -75000
+    },
+    {
+      "id": "6",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "CREDIT",
+      "fromTo": "1001",
+      "description": "Topup from Bank Transfer",
+      "amount": 1000000
+    },
+    {
+      "id": "7",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "DEBIT",
+      "fromTo": "310001001",
+      "description": "Fore Coffee",
+      "amount": -75000
+    },
+    {
+      "id": "8",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "CREDIT",
+      "fromTo": "1001",
+      "description": "Topup from Bank Transfer",
+      "amount": 1000000
+    },
+    {
+      "id": "9",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "DEBIT",
+      "fromTo": "310001001",
+      "description": "Fore Coffee",
+      "amount": -75000
+    },
+    {
+      "id": "10",
+      "dateTime": "20:10 - 30 June 2022",
+      "type": "CREDIT",
+      "fromTo": "1001",
+      "description": "Topup from Bank Transfer",
+      "amount": 1000000
+    }
+  ],
+
+  "users": [
+    {
+      "id": "1",
+      "name": "Lu'lu'ul",
+      "password": "123456",
+      "email": "mawarnafis@gmail.com",
+      "balance": "11.111.000,00",
+      "avatar": "https://banner2.cleanpng.com/20180919/vbs/kisspng-pororo-the-little-penguin-season-6-iconix-entert-1713939370233.webp"
+    },
+
+    {
+      "id": "2",
+      "name": "Ziyan",
+      "email": "ziyanaldejatmiko@gmail.com",
+      "password": "99999",
+      "balance": "77.770.000",
+      "avatar": "https://i.pinimg.com/736x/7e/a7/34/7ea7347d47717058ecb02ba5930f804a.jpg"
+    }
+  ]
+}
